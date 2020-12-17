@@ -112,17 +112,83 @@ gtag('config', 'UA-43941052-3');
 						                <span class="caret"></span></a>
 					                </li>
 					                <li>
-						                <a href="contactus bootstrap.html"  data-href="#" >
+						                <a href="Contactus bootstrap.html"  data-href="#Contact us" >
 						                contact Us
 						                </a>
 					                </li>
 					                 </ul>
                              <div class="header-search" id="header-search">
-							<form action="https://aqua.co.id/posts" method="get">
-							    <input type="hidden" name="_token" value="tf5biq9NwwTXm6GPMm0rXeDyBcPTzvU0rTMeFJgc">
-								<input type="text" class="form-control" placeholder="Masukkan kata kunci pencarian" id="query" name="query" value="">
-								<button class="header-search__submit"><i class="ion-search"></i></button>
-							</form>
+	<form action="/action_page.php">
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+        <span class="input-group-text">Name : </span>
+        </div>
+        <input type="text" class="form-control" placeholder="First Name">
+        <input type="text" class="form-control" placeholder="Last Name">
+        </div>  
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" placeholder="Enter email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    </div>
+    <div class="form-group form-check">
+      <span class="input-group-text">Jenis Kelamin : </span>
+                    <div class="form-check" >
+                            <label class="form-check-label"style="padding:0px 20px">
+                            <input type="radio" class="form-check-input" name="optradio">Pria
+                            </label>
+                        </div>
+                    <div class="form-check">
+                            <label class="form-check-label"style="padding:0px 20px">
+                            <input type="radio" class="form-check-input" name="optradio">Wanita
+                            </label>
+                        </div><hr />
+                    <div class="form-group">
+                            <label for="sel1">Agama:</label>
+                                <select class="form-control" id="sel1">
+                                <option selected>Advent</option>
+                                <option>Islam</option>
+                                <option>Katolik</option>
+                                <option>Hindu</option>
+                                <option>Budha</option>
+                                </select>
+                            </div>
+                            <hr />
+                            <label for="sel2">Hobby:</label>
+                            <div class="form-check">
+                                    
+                                    <label class="form-check-label"id="sel2">
+                                    <input type="checkbox" class="form-check-input" value="">Membaca
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="">Olahraga
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" value="">Ngoding
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                        <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" >Dll
+                                        </label>
+                                    </div>
+                                    <hr />
+                                    <label >Alamat :</label><br />
+                                    <textarea name="message" rows="5" cols="60"placeholder="alamat"></textarea>
+    
+    </div> 
+                                <label class="form-check-label">
+        <input class="form-check-input" type="checkbox"> Remember me
+      </label> 
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 						</div>
 						<!-- /.header-search -->
 					</nav>
